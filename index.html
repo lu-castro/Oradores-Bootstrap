@@ -31,17 +31,19 @@
         </nav>
 
         <!-- IMAGEN PRINCIPAL DE LA PÁGINA CON SU DESCRIPCIÓN -->
-        <div>
-            <img src="assets/img/ba1.jpg" alt="imagen de edificio" style="width: 100%;">
-            <div class="position-absolute">
+        <div container>
+            <img src="assets/img/ba1.jpg" alt="imagen de edificio" class="img-responsive" style="width: 100%;">
+            <div class="d-inline float-end position-absolute" style="width: 50%">
                 <h2>Conf Bs As</h2>
                 <p class="textoImagen">Bs As llega por primera vez a Argentina. Un evento para compartir
                     con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el
                     futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo
                     a Codo y a los oradores de primer nivel que tenemos para tí. Te esperamos!
                 </p><br>
-                <a href="#convierteteEnOrador" class="botónUno">Quiero ser orador</a>
-                <a href="./pages/comprar_tickets.html" class="botónDos">Comprar tickets</a>
+                <div class="d-inline-block">
+                    <a href="#convierteteEnOrador" class="text-decoration-none btn-light p-2 ">Quiero ser orador</a>
+                    <a href="./pages/comprar_tickets.html" class="text-decoration-none btn-success p-2">Comprar tickets</a>
+                </div>
             </div>
         </div>
 
@@ -109,7 +111,7 @@
     </section>
 
     <!-- FORMULARIO DE SUSCRIPCIÓN Y CHARLA -->
-    <section class="sectionFormSuscripción">
+    <section class="container justify-content-center">
         <div id="conviérteteEnOrador">
             <h2><span class="lead">CONVIÉRTETE EN </span> <br> ORADOR</h2>
             <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
@@ -124,15 +126,15 @@
     </section>
 
     <footer> <!-- LINKS DEL FOOTER -->
-        <div class="ítemsFooter">
-            <ul id="listadoFooter">
-                <li><a href="#">Preguntas<br> frecuentes</a></li>
-                <li><a href="#">Contáctanos</a></li>
-                <li><a href="#">Prensa</a></li>
-                <li><a href="#">Conferencias</a></li>
-                <li><a href="#">Términos y condiciones</a></li>
-                <li><a href="#">Privacidad</a></li>
-                <li><a href="#">Estudiantes</a></li>
+        <div class="bg-primary bg-gradient mb-auto">
+            <ul class="d-md-flex justify-content-center" style="list-style: none;">
+                <li><a href="#" class="text-decoration-none text-light p-5">Preguntas<br> frecuentes</a></li>
+                <li><a href="#" class="text-decoration-none text-light p-5">Contáctanos</a></li>
+                <li><a href="#" class="text-decoration-none text-light p-5">Prensa</a></li>
+                <li><a href="#" class="text-decoration-none text-light p-5">Conferencias</a></li>
+                <li><a href="#" class="text-decoration-none text-light p-5">Términos y condiciones</a></li>
+                <li><a href="#" class="text-decoration-none text-light p-5">Privacidad</a></li>
+                <li><a href="#" class="text-decoration-none text-light p-5">Estudiantes</a></li>
             </ul>
         </div>
     </footer>
