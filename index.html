@@ -32,7 +32,7 @@
 
         <!-- IMAGEN PRINCIPAL DE LA PÁGINA CON SU DESCRIPCIÓN -->
         <div container>
-            <img src="assets/img/ba1.jpg" alt="imagen de edificio" class="img-responsive" style="width: 100%; opacity: 1;">
+            <img src="assets/img/ba1.jpg" alt="imagen de edificio" class="img-responsive" style="width: 100%; filter: brightness(50%);">
             <div class="d-inline float-end position-absolute text-light" style="width: 40%; margin-left: -50%; top: 40%;">
                 <h2>Conf Bs As</h2>
                 <p class="textoImagen">Bs As llega por primera vez a Argentina. Un evento para compartir
@@ -41,8 +41,8 @@
                     a Codo y a los oradores de primer nivel que tenemos para tí. Te esperamos!
                 </p><br>
                 <div class="d-inline-block">
-                    <a href="#convierteteEnOrador" class="text-decoration-none btn-light p-2 ">Quiero ser orador</a>
-                    <a href="./pages/comprar_tickets.html" class="text-decoration-none btn-success p-2">Comprar tickets</a>
+                    <a href="#convierteteEnOrador" class="text-decoration-none text-light border p-2 rounded">Quiero ser orador</a>
+                    <a href="./pages/comprar_tickets.html" class="text-decoration-none btn-success p-2 rounded">Comprar tickets</a>
                 </div>
             </div>
         </div>
@@ -53,7 +53,7 @@
     <main>
         <!-- SECTION ORADORES -->
         <section>
-            <div>
+            <div class="d-inline align-items-center">
                 <h2><span class="lead">CONOCE A LOS</span> <br> ORADORES</h2>
             </div>
             <!-- DIV CON CADA UNO DE LOS ORADORES -->
@@ -94,11 +94,11 @@
     </main>
 
     <!-- SECTION IMAGEN DE HONOLULU -->
-    <section class="buenosAiresOctubre">
+    <section class="border-top-0">
         <img src="assets/img/honolulu.jpg" alt="playas de honolulu" class="img-fluid" style="width: 50%;">
-        <div class="textoImagenHonolulu"> <!-- DESCRIPCIÓN DE BS AS - OCTUBRE -->
-            <h1 id="títuloHonolulu">Bs As - Octubre</h1>
-            <p id="descripciónHonolulu">Buenos Aires es la provincia y la localidad más grande del 
+        <div class="d-inline float-end position-absolute bg-dark text-light" style="height: 430px;"> <!-- DESCRIPCIÓN DE BS AS - OCTUBRE -->
+            <h1 class="mx-3 my-3">Bs As - Octubre</h1>
+            <p class="mx-3 my-3">Buenos Aires es la provincia y la localidad más grande del 
                 estado de Argentina. En los Estados Unidos, Honolulu es la
                 más sureña de entre las principales ciudades estadounidenses.
                 Aunque el nombre de Honolulu se refiere al área urbana en 
@@ -106,14 +106,14 @@
                 de Honolulu han formado una ciudad-condado consolidada que
                 cubre toda la ciudad (aproximadamente 600 km**2 de superficie).
             </p>
-            <a href="">Conocé Más</a>
+            <a href="" class="mx-3 my-3 text-decoration-none text-light border p-2 rounded">Conocé Más</a>
         </div>
     </section>
 
     <!-- FORMULARIO DE SUSCRIPCIÓN Y CHARLA -->
-    <section class="container justify-content-center">
-        <div id="conviérteteEnOrador">
-            <h2><span class="lead">CONVIÉRTETE EN </span> <br> ORADOR</h2>
+    <section>
+        <div class="row-justify-content-center">
+            <h2><span class="lead col-4">CONVIÉRTETE EN </span> <br> ORADOR</h2>
             <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
         </div>
         <form action="POST" >
