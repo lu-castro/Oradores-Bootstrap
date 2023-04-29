@@ -53,37 +53,37 @@
     <main>
         <!-- SECTION ORADORES -->
         <section>
-            <div class="d-inline align-items-center">
+            <div>
                 <h2><span class="lead">CONOCE A LOS</span> <br> ORADORES</h2>
             </div>
             <!-- DIV CON CADA UNO DE LOS ORADORES -->
-            <div class="card" style="width: 20rem;">
-                <div>
+            <div style="width: 20rem;">
+                <div class="card align-baseline">
                     <img src="assets/img/steve.jpg" alt="Steve Jobs" class="card-img-top">
-                    <h4 class="bg-warning text-light text-center rounded" style="width: 100px;">Javascript</h4>
-                    <h4 class="btn-info text-light text-center rounded" style="width: 100px;">React</h4>
-                    <h3 class="nombreCaja">Steve Jobs</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate 
+                    <h4 class="badge badge-warning">Javascript</h4>
+                    <h4 class="badge badge-light">React</h4>
+                    <h3 class="card-title">Steve Jobs</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate 
                         necessitatibus veritatis, neque laudantium sed aspernatur quo maiores 
                         tempore eius ea. Perferendis explicabo et debitis. Deserunt harum velit 
                         cum temporibus.</p>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card align-middle" style="width: 18rem;">
                     <img src="assets/img/bill.jpg" alt="Bill Gates" class="card-img-top">
-                    <h4 class="bg-warning text-light text-center rounded" style="width: 100px;">Javascript</h4>
-                    <h4 class="btn-info text-light text-center rounded" style="width: 100px;">React</h4>
-                    <h3 class="nombreCaja">Bill Gates</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate 
+                    <h4 class="badge badge-warning" style="width: 100px;">Javascript</h4>
+                    <h4 class="badge badge-light" style="width: 100px;">React</h4>
+                    <h3 class="card-title">Bill Gates</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate 
                         necessitatibus veritatis, neque laudantium sed aspernatur quo maiores 
                         tempore eius ea. Perferendis explicabo et debitis. Deserunt harum velit 
                         cum temporibus.</p>
                 </div>
                 <div class="card" style="width: 18rem;">
                     <img src="assets/img/ada.jpeg" alt="Ada Lovelace" class="card-img-top">
-                    <h4 class="bg-danger text-light rounded" style="width: 100px;">Negocios</h4>
-                    <h4 class="bg-secondary text-light  text-center rounded" style="width: 100px;">Startups</h4>
-                    <h3>Ada Lovelace</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate 
+                    <h4 class="badge badge-danger" style="width: 100px;">Negocios</h4>
+                    <h4 class="badge badge-secondary" style="width: 100px;">Startups</h4>
+                    <h3 class="card-title">Ada Lovelace</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate 
                         necessitatibus veritatis, neque laudantium sed aspernatur quo maiores 
                         tempore eius ea. Perferendis explicabo et debitis. Deserunt harum velit 
                         cum temporibus.</p>
@@ -94,7 +94,7 @@
     </main>
 
     <!-- SECTION IMAGEN DE HONOLULU -->
-    <section class="border-top-0">
+    <section>
         <img src="assets/img/honolulu.jpg" alt="playas de honolulu" class="img-fluid" style="width: 50%;">
         <div class="d-inline float-end position-absolute bg-dark text-light" style="height: 430px;"> <!-- DESCRIPCIÓN DE BS AS - OCTUBRE -->
             <h1 class="mx-3 my-3">Bs As - Octubre</h1>
@@ -111,23 +111,23 @@
     </section>
 
     <!-- FORMULARIO DE SUSCRIPCIÓN Y CHARLA -->
-    <section>
-        <div class="row-justify-content-center">
-            <h2><span class="lead col-4">CONVIÉRTETE EN </span> <br> ORADOR</h2>
-            <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+    <section style="margin-left: 10%;">
+        <div>
+            <h2 style="margin-left: 35%;"><span class="lead">CONVIÉRTETE EN </span> <br> ORADOR</h2>
+            <p class="align-middle">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
         </div>
         <form action="POST" >
-            <input type="text" placeholder="Nombre" class="col-sm-6 col-md-4" id="inputNombre" required>
-            <input type="text" placeholder="Apellido" class="col-sm-6 col-md-4" id="inputApellido" required><br>
-            <textarea name="" id="" cols="44" rows="6" itemid="textareaMensaje" placeholder="Sobre qué quieres hablar?" required></textarea>
+            <input type="text" placeholder="Nombre" class="col-sm-2 col-md-4 align mx-2 p-1 rounded" required>
+            <input type="text" placeholder="Apellido" class="col-sm-2 col-md-4 mx-2 p-1 rounded" required><br>
+            <textarea name="" id="" cols="44" rows="6" itemid="textareaMensaje" placeholder="Sobre qué quieres hablar?" required class="my-3 p-1 rounded" style="width: 70%;"></textarea>
             <p class="textoFormDebajo">Recuerda incluir un título para tu charla</p>
-            <button type="submit">Enviar</button>
+            <button class="btn btn-primary my-2" style="width: 70%;">Enviar</button>
         </form>
     </section>
 
     <footer> <!-- LINKS DEL FOOTER -->
-        <div class="bg-primary bg-gradient mb-auto">
-            <ul class="d-md-flex justify-content-center" style="list-style: none;">
+        <div class="bg-primary bg-gradient mb-auto" style="height: 15vh; margin-bottom: none;">
+            <ul class="d-md-flex justify-content-center pt-4" style="list-style: none;">
                 <li><a href="#" class="text-decoration-none text-light p-5">Preguntas<br> frecuentes</a></li>
                 <li><a href="#" class="text-decoration-none text-light p-5">Contáctanos</a></li>
                 <li><a href="#" class="text-decoration-none text-light p-5">Prensa</a></li>
