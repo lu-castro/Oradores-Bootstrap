@@ -58,7 +58,7 @@
             </div>
             <!-- DIV CON CADA UNO DE LOS ORADORES -->
             <div style="width: 20rem;">
-                <div>
+                <div class="card align-baseline">
                     <img src="assets/img/steve.jpg" alt="Steve Jobs" class="card-img-top">
                     <h4 class="badge badge-warning">Javascript</h4>
                     <h4 class="badge badge-light">React</h4>
@@ -68,7 +68,7 @@
                         tempore eius ea. Perferendis explicabo et debitis. Deserunt harum velit 
                         cum temporibus.</p>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div class="card align-middle" style="width: 18rem;">
                     <img src="assets/img/bill.jpg" alt="Bill Gates" class="card-img-top">
                     <h4 class="badge badge-warning" style="width: 100px;">Javascript</h4>
                     <h4 class="badge badge-light" style="width: 100px;">React</h4>
@@ -111,17 +111,17 @@
     </section>
 
     <!-- FORMULARIO DE SUSCRIPCIÓN Y CHARLA -->
-    <section>
+    <section style="margin-left: 10%;">
         <div>
-            <h2><span class="lead">CONVIÉRTETE EN </span> <br> ORADOR</h2>
-            <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+            <h2 style="margin-left: 35%;"><span class="lead">CONVIÉRTETE EN </span> <br> ORADOR</h2>
+            <p class="align-middle">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
         </div>
         <form action="POST" >
-            <input type="text" placeholder="Nombre" class="col-sm-6 col-md-4" required>
-            <input type="text" placeholder="Apellido" class="col-sm-6 col-md-4" required><br>
-            <textarea name="" id="" cols="44" rows="6" itemid="textareaMensaje" placeholder="Sobre qué quieres hablar?" required></textarea>
+            <input type="text" placeholder="Nombre" class="col-sm-2 col-md-4 align mx-2 p-1 rounded" required>
+            <input type="text" placeholder="Apellido" class="col-sm-2 col-md-4 mx-2 p-1 rounded" required><br>
+            <textarea name="" id="" cols="44" rows="6" itemid="textareaMensaje" placeholder="Sobre qué quieres hablar?" required class="my-3 p-1 rounded" style="width: 70%;"></textarea>
             <p class="textoFormDebajo">Recuerda incluir un título para tu charla</p>
-            <button class="btn btn-primary">Enviar</button>
+            <button class="btn btn-primary my-2" style="width: 70%;">Enviar</button>
         </form>
     </section>
 
