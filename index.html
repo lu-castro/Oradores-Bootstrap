@@ -20,7 +20,7 @@
             <div>
                 <a href="#"><img src="assets/img/codoacodo.png" alt="Logo de Codo a Codo" class="img-fluid ms-sm-3 ms-md-5 my-sm-3 my-md-3" style="width: 100px"></a>
                 <h2 class="my-sm-4 my-md-4 position-absolute d-inline-block fs-5 text-light">Conf. Bs.As.</h2>
-                <ul class="d-flex justify-content-end list-group-item-disable me-5" style="margin-top: -40px;">
+                <ul class="d-flex justify-content-end list-unstyled me-5" style="margin-top: -40px;">
                     <li><a href="#"class="p-sm-1 p-md-4 text-decoration-none text-white">La conferencia</a></li>
                     <li><a href="#" class="p-sm-1 p-md-4 text-decoration-none text-muted">Los oradores</a></li>
                     <li><a href="#" class="p-sm-1 p-md-4 text-decoration-none text-muted">El lugar y la fecha</a></li>
@@ -107,7 +107,7 @@
 
     <!-- SECTION IMAGEN DE HONOLULU -->
     <section class="border-top">
-        <img src="assets/img/honolulu.jpg" alt="playas de honolulu" class="h-100 img-fluid" style="width: 50%; height: 500px;">
+        <img src="assets/img/honolulu.jpg" alt="playas de honolulu" class="img-fluid" style="width: 50%; height: 500px;">
         <div class="d-inline float-end position-absolute bg-dark text-light" style="width: 50%; height: 500px;"> <!-- DESCRIPCIÓN DE BS AS - OCTUBRE -->
             <h1 class="mx-3 my-3">Bs As - Octubre</h1>
             <p class="mx-3 my-3">Buenos Aires es la provincia y la localidad más grande del 
@@ -123,23 +123,27 @@
     </section>
 
     <!-- FORMULARIO DE SUSCRIPCIÓN Y CHARLA -->
-    <section>
+    <section class="container">
         <div class="my-2">
-            <h2 style="text-align: center;"><span class="lead">CONVIÉRTETE EN </span> <br> ORADOR</h2>
-            <p class="align-middle" style="text-align: center;">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+            <h2 class="text-center"><span class="lead">CONVIÉRTETE EN </span> <br> ORADOR</h2>
+            <p class="align-middle text-center">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
         </div>
-        <form action="POST" class="form" style="width: 1000px; margin-left: auto;">
-            <input type="text" placeholder="Nombre" class="col-sm-2 col-md-4 p-1 rounded border-1" required>
-            <input type="text" placeholder="Apellido" class="col-sm-2 col-md-4 p-1 rounded border-1" required><br>
-            <textarea name="" id="" cols="44" rows="6" itemid="textareaMensaje" placeholder="Sobre qué quieres hablar?" required class="my-3 p-1 rounded" style="width: 67%;"></textarea>
-            <p class="textoFormDebajo">Recuerda incluir un título para tu charla</p>
-            <button class="bg-success border-success text-light fs-5 p-2 my-2 rounded" style="width: 67%;">Enviar</button>
+        <form action="POST" class="w-100">
+            <div class="container mx-5">
+                <div class="container mx-3">
+                    <input type="text" placeholder="Nombre" class="mx-5 col-sm-2 col-md-4 p-1 rounded border-1" required>
+                    <input type="text" placeholder="Apellido" class="mx-5 col-sm-2 col-md-4 p-1 rounded border-1" required><br>
+                    <textarea name="" id="" cols="44" rows="6" placeholder="Sobre qué quieres hablar?" required class="w-75 mx-5 my-3 p-1 rounded"></textarea>
+                    <p class="mx-5">Recuerda incluir un título para tu charla</p>
+                    <button class="w-75 bg-success border-success text-light fs-5 p-2 my-2 mx-5 rounded">Enviar</button>   
+                </div>
+            </div>
         </form>
     </section>
 
     <footer> <!-- LINKS DEL FOOTER -->
         <div class="bg-primary bg-gradient mb-auto" style="height: 15vh;">
-            <ul class="d-md-flex justify-content-center pt-4" style="list-style: none;">
+            <ul class="d-md-flex justify-content-center list-group-item-disable list-unstyled pt-4">
                 <li><a href="#" class="text-decoration-none text-light p-2">Preguntas<br> frecuentes</a></li>
                 <li><a href="#" class="text-decoration-none text-light p-5">Contáctanos</a></li>
                 <li><a href="#" class="text-decoration-none text-light p-5">Prensa</a></li>
