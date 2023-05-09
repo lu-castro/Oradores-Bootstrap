@@ -22,7 +22,12 @@
 ![image](https://user-images.githubusercontent.com/71678622/236990848-78ede31b-4080-49b1-9c3c-4c7472180afa.png)
 ![image](https://user-images.githubusercontent.com/71678622/236990887-3fcbc9b8-0fc8-4515-aa63-9c4ce61de1a3.png)
 
-
+## Media Querys
+**Navbar e imagen principal**  
+**Título y cards de Oradores**  
+**Imagen Honolulu y divisor a la derecha**  
+**Título y formulario**  
+**Footer**  
 
 
 
