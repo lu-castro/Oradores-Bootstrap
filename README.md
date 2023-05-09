@@ -24,10 +24,15 @@
 
 ## Media Querys
 **Navbar e imagen principal**  
+![image](https://github.com/lu-castro/Oradores-Bootstrap/assets/71678622/f505260c-401d-482e-a373-595b7955f0b1)  
 **Título y cards de Oradores**  
-**Imagen Honolulu y divisor a la derecha**  
+![image](https://github.com/lu-castro/Oradores-Bootstrap/assets/71678622/90673eac-ca3e-40b3-9667-486d0f373d7f)  
+**Imagen Honolulu y divisor a la derecha**   
+![image](https://github.com/lu-castro/Oradores-Bootstrap/assets/71678622/12714bea-17db-4812-8cfb-ddcffc16db22)  
 **Título y formulario**  
+![image](https://github.com/lu-castro/Oradores-Bootstrap/assets/71678622/061c0e5c-6c05-4cd1-a789-be3447bbe366)  
 **Footer**  
+![image](https://github.com/lu-castro/Oradores-Bootstrap/assets/71678622/8017b799-d244-4181-b435-d49289e0ebee)  
 
 
 
